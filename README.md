@@ -1,9 +1,9 @@
-项目地址：  https://github.com/TQCAI/crack-label-tool
-
+- 项目地址：  https://github.com/TQCAI/crack-label-tool
+- 博客介绍：  https://blog.csdn.net/TQCAI666/article/details/89378837
 
 # 界面区域
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190418144205691.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RRQ0FJNjY2,size_16,color_FFFFFF,t_70)
+![界面区域](https://img-blog.csdnimg.cn/20190418144205691.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RRQ0FJNjY2,size_16,color_FFFFFF,t_70)
 # 标注模式
 
 
