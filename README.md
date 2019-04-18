@@ -20,15 +20,12 @@
 ## 边缘检测
 - 原图
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190418145253875.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RRQ0FJNjY2,size_16,color_FFFFFF,t_50)
+
+<img src="https://img-blog.csdnimg.cn/20190418145253875.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RRQ0FJNjY2,size_16,color_FFFFFF" width="50%"  />
+
 
 
 - 预标注图
-
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190418145320441.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RRQ0FJNjY2,size_16,color_FFFFFF,t_70)
-
-<img src="https://img-blog.csdnimg.cn/20190418145253875.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RRQ0FJNjY2,size_16,color_FFFFFF" width="50%"  />
 
 
 <img src="https://img-blog.csdnimg.cn/20190418145320441.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RRQ0FJNjY2,size_16,color_FFFFFF" width="50%"  />
