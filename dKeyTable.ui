@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dKeyTable</class>
+ <widget class="QMainWindow" name="dKeyTable">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1003</width>
+    <height>646</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>快捷键表</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="table">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>971</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>01</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>02</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>03</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>04</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>05</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>06</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>07</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>08</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>09</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>按钮名</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>快捷键</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>单词缩写</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>功能描述</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>画笔</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>Ctrl+P</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>pen</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>给CV（计算机视觉）没有标注到的裂缝添加标注</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>橡皮</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>Ctrl+R</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>rubber</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>擦除错误的标注</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>刷新</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>Ctrl+F</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>flash</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>调用CV算法进行自动标注</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>查看原图</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>Alt</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>查看未标注的原图。再次点击可以查看标注的效果</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>选择文件夹</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>Ctrl+D</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>directory</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string>选择工作路径，设置之后下一次打开会自动从这个路径开始标注</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>选择图片</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>Ctrl+I</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>image</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string>如果想选择一张图片进行标注测试，可以点击这个按钮。之后工作路径会设置为图片所在路径</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>放弃图片</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string>Ctrl+A</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>abandon</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string>放弃标注这张图片，程序会把这个图片移动到工作路径的“已处理原图”文件夹</string>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>查看已标注</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="text">
+      <string>Ctrl+V</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string>visualize</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="7" column="3">
+     <property name="text">
+      <string>打开一个对话框，可以查看已经标注的图片数据</string>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>清除标注</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="text">
+      <string>Ctrl+C</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string>clear</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="8" column="3">
+     <property name="text">
+      <string>把所有标注内容清除使用。如果CV表现很差，需要人工来进行标注，可以使用这个功能</string>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string>快捷键表</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="9" column="1">
+     <property name="text">
+      <string>Ctrl+T</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string>table</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="9" column="3">
+     <property name="text">
+      <string>打开快捷键表</string>
+     </property>
+    </item>
+    <item row="10" column="0">
+     <property name="text">
+      <string>上一张</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="10" column="1">
+     <property name="text">
+      <string>Shift+&lt;</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="10" column="3">
+     <property name="text">
+      <string>定位到处理之前的图片。因为软件编写难度大，所以只能向前回溯一张图片</string>
+     </property>
+    </item>
+    <item row="11" column="0">
+     <property name="text">
+      <string>完成标注</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="11" column="1">
+     <property name="text">
+      <string>Shift+&gt;</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="11" column="3">
+     <property name="text">
+      <string>完成这张图片的标注，打开下一张图片</string>
+     </property>
+    </item>
+    <item row="12" column="0">
+     <property name="text">
+      <string>帮助</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="12" column="1">
+     <property name="text">
+      <string>Ctrl+H</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="12" column="2">
+     <property name="text">
+      <string>help</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="12" column="3">
+     <property name="text">
+      <string>进入软件的发布页面查看帮助（作者的博客）</string>
+     </property>
+    </item>
+    <item row="13" column="0">
+     <property name="text">
+      <string>撤销</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="13" column="1">
+     <property name="text">
+      <string>Ctrl+Z</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="13" column="3">
+     <property name="text">
+      <string>撤销这个操作“只能撤销人工操作”</string>
+     </property>
+    </item>
+    <item row="14" column="0">
+     <property name="text">
+      <string>重做</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="14" column="1">
+     <property name="text">
+      <string>Ctrl+Y</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="14" column="3">
+     <property name="text">
+      <string>取消撤销操作</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1003</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
